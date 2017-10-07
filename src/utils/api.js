@@ -1,5 +1,5 @@
-const API_ID = process.env.REACT_APP_API_ID;
-const APP_KEY = process.env.REACT_APP_APP_KEY;
+const API_ID = 'f5fefae6';
+const APP_KEY = 'f841dab120d696797bf961cdcb741b9c';
 
 export function fetchRecipes(food = '') {
   food = food.trim();
